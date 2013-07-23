@@ -9,5 +9,16 @@
 root { 
     display: block;
 }
-
-
+header nav {
+    position: absolute;
+    top: 0px;
+    left:40%;
+}
+header #logo {
+    position: absolute;
+    top:0px;
+    left:20%;
+}
+header nav ul li {
+    display: inline-block;
+}

@@ -30,6 +30,10 @@ li{
   text-overflow:ellipsis;
 }
 div{margin:0 auto;}
-img{vertical-align:top;border:0;}
+img{
+    vertical-align:top;
+    border:0;
+    width: 100%;
+}
 a{color:#069;text-decoration:none;}
 a:hover {color:#069;text-decoration:underline;}
