@@ -1,0 +1,35 @@
+/* 
+    Document   : reset
+    Created on : 2013-7-23, 14:49:44
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+* {
+  margin:0px;
+  padding:0px;
+}
+body {
+  background:#fff;
+  color:#069;
+  font-size:12px;
+  font-family:helvetica,arial,sans-serif,"宋体";
+}
+p{line-height:18px;}
+h1,h2,h3,h4,h5,h6{margin:0; padding:0; font-size:12px; font-weight:normal;}
+table,td,tr,th{font-size:12px;}
+li{
+  list-style:none;
+  list-style-position:outside;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+div{margin:0 auto;}
+img{vertical-align:top;border:0;}
+a{color:#069;text-decoration:none;}
+a:hover {color:#069;text-decoration:underline;}
